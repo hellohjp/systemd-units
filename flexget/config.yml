@@ -1,0 +1,28 @@
+tasks:
+  HDSky:
+    rss: https://hdsky.me/torrentrss.php?rows=10&isize=1&iuplder=1&linktype=dl&passkey=
+    regexp:
+      accept:
+        - -HDS
+      reject:
+        - MB\]
+    download: /home/iamair/torrents/HDSky
+#  CHDBits:
+#    rss: https://chdbits.co/torrentrss.php?rows=10&isize=1&iuplder=1&linktype=dl&passkey=
+#    regexp:
+#      accept:
+#        - \[([1-9]\d{1,})
+#      reject:
+#        - MB\]
+#    download: /home/iamair/torrents/CHDBits
+  ToTheGlory:
+    rss: https://totheglory.im/putrss.php?par=
+    regexp:
+      accept:
+        - WiKi
+#        - -TTG
+        - DIY+TTG
+      reject:
+        - DoA
+        - MB\]
+    download: /home/iamair/torrents/ToTheGlory
