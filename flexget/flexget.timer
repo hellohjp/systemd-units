@@ -2,7 +2,8 @@
 Description=flexget
 
 [Timer]
-OnCalendar=hourly
+OnBootSec=10min
+OnUnitActiveSec=10min
 
 [Install]
 WantedBy=default.target
